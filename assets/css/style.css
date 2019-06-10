@@ -1,0 +1,72 @@
+#title-card {
+    padding: 20px;
+    float: 0 auto;
+    margin: 0 20%;
+
+    background-color: green;
+    text-align: center;
+
+
+}
+
+#instructions {
+    float: 0 auto;
+    padding: 20px;
+    margin: 10px 10% 0 10%;
+
+    background-color: gold;
+    text-align: center;
+
+}
+
+#target-score {
+    float: left;
+    padding: 20px;
+    margin: 10px 0 10px 40%;
+
+    background-color: red;
+    color: white;
+
+    text-align: center;
+}
+
+#wins-losses-count {
+    float: left;
+    padding: 20px;
+    margin: 10px 10px 0 0;
+
+    background-color: aqua;
+
+}
+
+/* container for images */
+#crystal-pics {
+    clear: both;
+
+    text-align: center;
+}
+
+#total-score {
+    clear: both;
+    float: 0 auto;
+    padding: 20px;
+    margin: 10px 30% 0 30%;
+
+    background-color: coral;
+
+    text-align: center;
+}
+
+
+body {
+    /* rgba used to set color and opacity */
+    background-color: rgba(51, 170, 51, .5);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+
+    display: inline-block;
+}

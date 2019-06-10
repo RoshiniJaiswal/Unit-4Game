@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+</head>
+</head>
+
+<body>
+    <section id="title-card">
+        <h1>Crystal Collector!</h1>
+    </section>
+
+    <section id="instructions">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.</p>
+        <p>You win the game by matching your total score to the random number. You lose the game if your score goes over
+            that number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Every time the game starts, the value of the crystals will change.</p>
+    </section>
+
+    <section id="target-score">
+        <p>Target Score:</p>
+        <p id="target-score-text">0</p>
+    </section>
+
+    <section id="wins-losses-count">
+        <p>Wins: <span id="wins-text"></span></p>
+        <p>Losses: <span id="losses-text"></span></p>
+    </section>
+
+    
+    <section id="crystal-pics">
+        <img id="blueCrystal" src="https://image.shutterstock.com/image-illustration/blue-crystals-cluster-isolated-on-450w-786535432.jpg" alt="blue crystal">
+        <img id="redCrystal" src="https://image.shutterstock.com/image-photo/amazing-rare-red-quartz-titanium-450w-527954737.jpg" alt="red crystal">
+        <img id="greenCrystal" src="https://beadage.net/wp-content/uploads/2018/10/prasiolite-300x300.jpg" alt="green crystal">
+        <img id="yellowCrystal" src="https://sc01.alicdn.com/kf/HTB1__CWJVXXXXaBXVXXq6xXFXXXL/Wholesale-natural-rough-citrine-quartz-cluster-nature.jpg" alt="yellow crystal">
+    </section>
+
+    <section id="total-score">
+        <p>Your total score so far is:</p>
+        <p id="total-score-text">0</p>
+    </section>
+
+    <script type="text/javascript" src="assets/javascript/game.js">
+    </script>
+</body>
+
+</html>
